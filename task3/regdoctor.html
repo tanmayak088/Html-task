@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        doctor sign up
+    </title>
+</head>
+
+<body>
+    <header>
+        <h3>
+            <center>
+                <font color="red">
+                    WELCOME TO APOLLO HOSPITALS
+                </font>
+            </center>
+        </h3>
+    </header>
+    <P align="center">
+        <a href="home.html">HOME</a> |
+        <a href="branch.html">BRANCH</a> |
+        <a href="doctor.html">DOCTORS</a> |
+        <a href="address">ADDRESS</a> |
+        <a href="contact.html">CONTACT</a> |
+        <a href="service.html">SERVICE</a> |
+        <a href="#">DOCTOR REG.</a> |
+        <a href="doctorsignin.html">DOCTOR SIGNIN</a> |
+        <a href="regpatient.html">PATIENT REG</a> |
+        <a href="patientsignin.html">PATIENT SIGNIN</a>
+    </P>
+    <hr>
+    <form method="post" name="rd" action="server7">
+        <table align="center" bgcolor="lightgray" cellspacing="15px">
+            <caption>
+                <h2>
+                    Doctor Registration
+                </h2>
+            </caption>
+            <tr>
+                <td>
+                    <label for="fd1">First Name:</label>
+                    <br>
+                    <input type="text" name="f1" id="fd1">
+                </td>
+                <td>
+                    <label for="fd2">Last Name:</label>
+                    <br>
+                    <input type="text" name="f2" id="fd2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fd3">Username:</label>
+                    <br>
+                    <input type="text" name="f3" id="fd3">
+                </td>
+                <td>
+                    <label for="fd4">Password:</label>
+                    <br>
+                    <input type="password" name="f4" id="fd4">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fd5">Email ID:</label>
+                    <br>
+                    <input type="email" name="f5" id="fd5">
+                </td>
+                <td>
+                    <label for="fd6">Mobile No:</label>
+                    <br>
+                    <input type="number" name="f6" id="fd6">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Specialization:</label>
+                    <br>
+                    <select>
+                        <option value="please select the spciality">please select the spciality</option>
+                        <option value="child">child</option>
+                        <option value="eye">Eye</option>
+                        <option value="heart">Heart</option>
+                        <option value="skin">Skin</option>
+                        <option value="kidney">Kidney</option>
+                    </select>
+                </td>
+                <td>
+                    <label>Gender:</label>
+                    <br>
+                    <select>
+                        <option value="please select gender">please select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>State:</label>
+                    <br>
+                    <select>
+                        <option value="please select the state">please select the state</option>
+                        <option value="telengana">Telengana</option>
+                        <option value="tamilnadu">Tamilnadu</option>
+                        <option value="odisha">Odisha</option>
+                    </select>
+                </td>
+                <td>
+                    <label>City:</label>
+                    <br>
+                    <select>
+                        <option value="hyd">HYD</option>
+                        <option value="sce">SCE</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="1">
+                    <label for="fd7">Address:</label>
+                    <br>
+                    <textarea name="f7" id="fd7" cols="21" rows="5"></textarea>
+                </td>
+                <td colspan="2">
+                    <label for="fd8">Pincode:</label>
+                    <br>
+                    <input type="number" name="f8" id="fd8">
+                    <br><br>
+                    <input type="submit" value="Register">&nbsp;&nbsp;
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center>
+                        Alrady Rgistered?<a href="doctorsignin.html">Click here to login</a>
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+    <footer>
+        <center>
+            <font color="orange">
+              copyright@apollo
+            </font>
+        </center>
+    </footer>
+</body>
+
+</html>

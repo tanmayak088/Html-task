@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        patient registration
+    </title>
+</head>
+
+<body>
+    <header>
+        <h3>
+            <center>
+                <font color="red">
+                    WELCOME TO APOLLO HOSPITALS
+                </font>
+            </center>
+        </h3>
+    </header>
+    <P align="center">
+        <a href="home.html">HOME</a> |
+        <a href="branch.html">BRANCH</a> |
+        <a href="doctor.html">DOCTORS</a> |
+        <a href="address">ADDRESS</a> |
+        <a href="contact.html">CONTACT</a> |
+        <a href="service.html">SERVICE</a> |
+        <a href="regdoctor.html">DOCTOR REG.</a> |
+        <a href="doctorsignin.html">DOCTOR SIGNIN</a> |
+        <a href="#">PATIENT REG</a> |
+        <a href="patientsignin.html">PATIENT SIGNIN</a>
+    </P>
+    <hr>
+    <form action="server9" name="td" method="post">
+        <table align="center" bgcolor="lightgray" cellspacing="10px">
+            <caption>
+                <h2>
+                    Patient Registration Form
+                </h2>
+            </caption>
+            <!--pateint name-->
+            <tr>
+                <td>
+                    <label for="f1">Pateint's Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="n1" id="f1" placeholder="First Name">
+                    <input type="text" name="n2" id="f" placeholder="Last Name">
+                </td>
+            </tr>
+            <!--user name-->
+            <tr>
+                <td>
+                    <label for="f2">Username:</label>
+                </td>
+                <td>
+                    <input type="text" name="n3" id="f2" placeholder="Username">
+                </td>
+            </tr>
+            <!--gender-->
+            <tr>
+                <td>
+                    <label>Gender:</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" id="radio1" value="male">male
+                    <input type="radio" name="gender" id="radio2" value="female">Female
+                </td>
+            </tr>
+            <!--date of birth-->
+            <tr>
+                <td>
+                    <label>Date Of Birth:</label>
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <!--marital status-->
+            <tr>
+                <td>
+                    <label>Marital Status:</label>
+                </td>
+                <td>
+                    <input type="radio" name="Status" id="radio3" value="single">single
+                    <input type="radio" name="Status" id="radio4" value="married">married
+                    <input type="radio" name="status" id="radio5" value="divorced">divorced
+                    <input type="radio" name="status" id="radio6" value="window">Window
+                </td>
+            </tr>
+            <!--e-mail-->
+            <tr>
+                <td>
+                    <label for="f3">E-mail:</label>
+                </td>
+                <td>
+                    <input type="email" name="n3" id="f3">
+                </td>
+            </tr>
+            <!--mobile no-->
+            <tr>
+                <td>
+                    <label for="f4">Mobile No:</label>
+                </td>
+                <td>
+                    <input type="number" name="n4" id="f4">
+                </td>
+            </tr>
+            <!--pateints address-->
+            <tr>
+                <td>
+                    <label>Pateint's Address:</label>
+                </td>
+                <td>
+                    <input type="text" name="n5" id="f5" placeholder="Sreet">
+                    <br><br>
+                    <input type="text" name="n6" id="f6" placeholder="City">
+                    <input type="text" name="n7" id="f7" placeholder="State">
+                    <br><br>
+                    <input type="number" name="n8" id="f8" placeholder="Pincode">
+                    <select name="country" id="c1">
+                        <option value="country">Country</option>
+                        <option value="india">INDIA</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                    </select>
+                </td>
+            </tr>
+            <!--ins name-->
+            <tr>
+                <td>
+                    <label for="f9">Insurance name:</label>
+                </td>
+                <td>
+                    <input type="text" name="n9" id="f9" placeholder="Insurance Name">
+                </td>
+            </tr>
+            <!--past medical his-->
+            <tr>
+                <td>
+                    <label>Past Medical History:</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="History" id="f10" value="anemia">anemia
+                    <br>
+                    <input type="checkbox" name="History" id="f11" value="asthma">asthma
+                    <br>
+                    <input type="checkbox" name="History" id="f12" value="ulcer">ulcer
+                    <br>
+                    <input type="checkbox" name="History" id="f13" value="diabetes">Diabetes
+                    <br>
+                    <input type="checkbox" name="History" id="f14" value="branchitis">branchitis
+                    <br>
+                    <input type="checkbox" name="History" id="f15" value="other">Other
+                </td>
+            </tr>
+            <!--password-->
+            <tr>
+                <td>
+                    <label for="d1">Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="m1" id="d1" placeholder="password">
+                </td>
+            </tr>
+            <!--conform passwoed-->
+            <tr>
+                <td>
+                    <label for="d2">Conform Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="m2" id="d2" placeholder="Conform Password">
+                </td>
+            </tr>
+            <!--submit&reset-->
+            <tr>
+                <td></td>
+                <td >
+                    <input type="submit" name="n5" id="d7" value="register">
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="reset" name="n0" id="d9" value="clear">
+                </td>
+            </tr>
+           <tr>
+            <td colspan="2">
+                <center>
+                    Already Registered? <a href="patientsignin.html">click Here To Login</a>
+                </center>
+            </td>
+           </tr>
+        </table>
+    </form>
+    <hr>
+    <footer>
+        <center>
+            <font color="orange">
+              copyright@apollo
+            </font>
+        </center>
+    </footer>
+</body>
+
+</html>
